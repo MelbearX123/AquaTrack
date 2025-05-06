@@ -1,2 +1,2 @@
 # Aquarium-Tracker
-A local app made in electron used to help my family track fish tank parameters
+This is a local app made in electron used to help my family track fish tank parameters. It is a work in progress and nowhere near the final product. I got this idea since my family was struggling to manage the water quality in our fish tank, so I decided to create a local app that would help me track our aquarium parameters. I plan to finish this project in the upcoming month or so.
