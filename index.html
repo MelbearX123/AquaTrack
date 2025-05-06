@@ -1,0 +1,47 @@
+<!-- Home Page -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Mel's Aquarium Tracker</title>
+    <link rel="stylesheet" href="headers.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="popup.css">
+
+  </head>
+  <body>
+    <!-- Header -->
+    <div class = "header">
+      <div class = "left-side">Mel's Aquarium Tracker</div>
+      <div class = "right-side">
+        <button class="home-button">Home</button>
+        <button class = "creatures-button">Creatures</button>
+        <button class = "login-button">Login</button>
+      </div>
+    </div>
+    <!-- Open popup on click of button -->
+    <button id="open-popup">Add Parameters</button>
+    <!-- Display the table -->
+     <table>
+      <!-- table head -->
+      <thead class="willbedate">
+        <tr>
+          <th>Nitrite</th>
+          <th>Nitrate</th>
+          <th>Chlorine</th>
+          <th>Total Hardness</th>
+          <th>Alkalinity</th>
+          <th>Carbonate</th>
+          <th>pH</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- table body -->
+      </tbody>
+     </table>
+     
+    <script src="main-renderer.js"></script>
+  </body>
+</html>

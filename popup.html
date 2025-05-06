@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Mel's Aquarium Tracker</title>
+    <link rel="stylesheet" href="headers.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="popup.css">  
+  </head>
+
+  <body>
+    <div class="submission-box">
+      <!-- Include all the buttons to submit -->
+      <p>Insert date:</p>
+      <input type="date" id="date-input">
+      <p>Insert nitrite (NO2) in mg/L:</p>
+      <input placeholder="Nitrite" id="nitrite-input">
+      <p>Insert nitrate (NO3) in mg/L:</p>
+      <input placeholder="Nitrate" id="nitrate-input">
+      <p>Insert chlorine (Cl2) in mg/L:</p>
+      <input placeholder="Chlorine" id="chlorine-input">
+      <p>Insert total hardness (GH) in mg/L:</p>
+      <input placeholder="Total Hardness" id="total-hardness-input">
+      <p>Insert total alkalinity (TA) in mg/L:</p>
+      <input placeholder="Alkalinity" id="alkalinity-input">
+      <p>Insert carbonate (KH) in mg/L:</p>
+      <input placeholder="Carbonate" id="carbonate-input">
+      <p>Insert pH:</p>
+      <input placeholder="pH" id="pH-input">
+
+      <button class="submit-button" id="submit-button">Submit</button>
+
+    </div>
+    <script src="popup-renderer.js"></script>
+  </body>
+</html>

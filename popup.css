@@ -1,0 +1,21 @@
+.submission-box{
+  padding: 0px 0px 100px 100px;
+}
+
+.submit-button, .back-button{
+  display: block;
+  margin-top: 20px;
+  padding: 10px 30px 10px 30px;
+  background-color: lightcyan;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover{
+  background-color:rgb(113, 255, 255);
+  transition: background-color 0.15s;
+}
+
+input{
+  padding: 10px 10px 10px 10px;
+}
