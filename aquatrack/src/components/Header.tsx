@@ -1,14 +1,18 @@
+import styles from '../styles/Header.module.css';
+
 function Header(){
   return(
-    <div>
-      <div>
+    <div className={styles.headerFull}>
+      <div className={styles.headerLeft}>
         AquaTrack
       </div>
-      <div>
+      <div className={styles.headerRight}>
         <button>Home</button>
+        <button>Tables</button>
         <button>Graphs</button>
         <button>About</button>
-        <input type="text" placeholder='login'/>
+        <p>|</p>
+        <button>Login</button>
       </div>
     </div>
   );
