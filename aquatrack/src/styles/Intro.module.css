@@ -1,0 +1,20 @@
+.introContainer{
+  margin-top: 75px;
+  color: white;
+  background-color: rgb(87, 101, 255);
+  height: 300px;
+  left: 0px;
+  right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.welcome{
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
+}
+
+
