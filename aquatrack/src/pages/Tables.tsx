@@ -5,6 +5,7 @@ function Tables(){
     <div>
       <Header />
       This is tables page
+      <button>Add parameters</button>
     </div>
   );
 }
