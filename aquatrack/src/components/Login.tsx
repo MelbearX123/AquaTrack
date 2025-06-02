@@ -2,8 +2,13 @@
 
 function LoginForm(){
   return(
-    <div>
-      this is the login form
+    <div className = 'loginBox'>
+      <h1>Login</h1>
+      <input type="text" placeholder="userName"/>
+      <input type="text"  placeholder="password"/>
+      <p>Forgot passoword?</p>
+      <button>Login</button>
+      <p>Don't have an account? Register</p>
     </div>
   );
 }
