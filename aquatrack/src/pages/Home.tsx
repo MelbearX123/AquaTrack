@@ -6,6 +6,7 @@ function Home(){
     <div>
       <Header />
       <Intro />
+      <button>Add Parameters</button>
     </div>
   );
 }
