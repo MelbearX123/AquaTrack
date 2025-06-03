@@ -5,7 +5,6 @@ function ParameterSimpleSubmission(){
       <input type="date" id='date-input'/>
       <p>Insert nitrite (NO2) in mg/L:</p>
       <div className='nitrateButtons'>
-
       </div>
       <p>Insert nitrate (NO3) in mg/L:</p>
 
