@@ -1,5 +1,6 @@
-//send the data onclick of submit button
+const mysql = require('mysql2');
 
+//send the data onclick of submit button
 const submitButton = document.getElementById('submitButton');
 
 submitButton.addEventListener('click', () => {
@@ -27,4 +28,12 @@ submitButton.addEventListener('click', () => {
   //   pH
   // });
 
+  const sql = `
+  INSERT INTO parameters
+  (date, Nitrite, Nitrate, Chlorine, Total_Hardness, Total_Alkalinity, Carbonate, pH)
+  VALUES (?,?,?,?,?,?,?,?)`;
+
+  const values = [
+    //figure this out later
+  ]
 })
