@@ -20,12 +20,12 @@ const [showPopup, setShowPopup] = useState(false); //toggle between showing and 
             <div className='titleWrapper'>
               <button onClick={() => setShowPopup(false)}>Close</button>
               <button onClick={() => setSpecific(!specific)}>
-                {specific ? 'Specific' : 'Simple'}
+                {specific ? 'Simple' : 'Specific'}
               </button>
             </div>
             <div className='inputBox'>
                 {specific ? <ParameterSubmission /> : <ParameterSimpleSubmission /> }
-                <button className='submitButton'>Submit</button>
+                <button id='submitButton'>Submit</button>
             </div>
           </div>         
         </div>

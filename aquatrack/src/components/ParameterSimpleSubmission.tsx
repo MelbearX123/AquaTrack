@@ -1,4 +1,4 @@
-import styles from '../Submissions.module.css';
+import styles from '../styles/Submissions.module.css';
 
 function ParameterSimpleSubmission(){
   return(
